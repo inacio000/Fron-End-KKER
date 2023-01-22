@@ -3,11 +3,12 @@
 <img src="readme.png"></img>
 
 ## Techs
-- jsx
+- html
 - css
+- js
 - ReactIcons
 
 ## Instalation
 
     npm install
-    npm run dev
+    npm start

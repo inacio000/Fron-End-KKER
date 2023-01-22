@@ -1,0 +1,130 @@
+.App{
+  /* height: 100vh; */
+}
+
+/* Header Style */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  height: 80px;
+  padding: 0 2rem;
+}
+
+.logo {
+  width: 65px
+}
+
+nav .navlink {
+  margin: 0 2rem;
+}
+
+header .nav-btn {
+  display: none;
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 800px) {
+  header .nav-btn {
+    display: block;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    transition: 0s;
+    font-size: 20px;
+    transform: translateY(-100vh);
+    
+    background-image: url('../public/images/bg-mobile/bg-m3.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  header .responsiveNav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+  
+}
+
+/* Main */
+main {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  padding: 40px;
+}
+
+footer .social-medias {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+footer .social-medias a {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  /* opacity: 0.70; */
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+footer p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(197, 197, 197);
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
