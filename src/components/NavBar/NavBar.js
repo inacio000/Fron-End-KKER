@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { FaBars, FaTimes, FaInstagram } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
   const navRef = useRef();
@@ -13,14 +13,54 @@ function NavBar() {
       <a href="index.html" className="logo">
         <img src="../images/logotipe.png" alt="Logo image" />
       </a>
+
       <nav ref={navRef} className="navbar" id="navbar">
-        <a href="#" className="navlink">HOME</a>
+        <a href="#" className="navlink"><span>HOME</span></a>
 
-        <a href="#" className="navlink">ABOUT US</a>
+        <a href="#" className="navlink"><span>COUNTRIES</span>
+          <div className="sub-menu-1 sub1">
+            <ul>
+              <li className="hover-sub">
+                <a href="">Rússia</a>
+                <div className="sub-menu-2">
+                  <ul>
+                    <li><a href="">Vida na Rússia</a></li>
+                    <li><a href="">Estudos na Rússia</a></li>
+                  </ul>
+                </div>
+              </li>
 
-        <a href="#" className="navlink">SERVICES</a>
+              <li className="hover-sub">
+                <a href="">Polônia</a>
+                <div className="sub-menu-2">
+                  <ul>
+                    <li><a href="">Vida na Polônia</a></li>
+                    <li><a href="">Estudos na Polônia</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </a>
 
-        <a href="#" className="navlink blog">BLOGS</a>
+        <a href="#" className="navlink"><span>ABOUT US</span>
+          <div className="sub-menu-1 sub2">
+            <ul>
+              <li><a href="">Services</a></li>
+              <li><a href="">KKER</a></li>
+            </ul>
+          </div>
+        </a>
+
+        <a href="#" className="navlink"><span className="application">SUBMIT APPLICATION</span>
+          <div className="sub-menu-1 sub3">
+            <ul>
+              <li><a href="">Requisitos</a></li>
+              <li><a href="">Universidade</a></li>
+              <li><a href="">Especialidades</a></li>
+            </ul>
+          </div>
+        </a>
 
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />

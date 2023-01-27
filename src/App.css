@@ -4,6 +4,7 @@
 
 /* Header Style */
 header {
+  background-color: #0e314f;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,12 +14,25 @@ header {
 }
 
 .logo {
-  width: 65px
+  width: 65px;
 }
 
 nav .navlink {
-  margin: 0 2rem;
+  display: inline-block;
+  position: relative;
+  margin: 0 1.5rem;
+  width: 100px;
+  text-align: center;
 }
+
+/* nav a::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0;
+  background-image: linear-gradient(to bottom, #F20505, #D5DFF2);
+  transition: all .5s;
+} */
 
 header .nav-btn {
   display: none;
@@ -30,7 +44,75 @@ header .nav-btn {
   font-size: 1.8rem;
 }
 
+span {
+  width: fit-content;
+  opacity: 0.7;
+}
+
+span:hover {
+  opacity: 1;
+}
+
+.application {
+  width: 180px;
+  display: inline-block;
+  background-color: #085ca07e;
+  padding: 4px 5px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.sub-menu-1 ul li a {
+  font-size: 15px;
+}
+
+nav a:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  background-color: #0e314f;
+  padding-top: 1.5rem;
+  border-radius: 10px;
+  transition: all 3s ease-in-out;
+}
+
+nav a:hover .sub-menu-1 ul li {
+  display: block;
+}
+
+nav a:hover .sub-menu-1 ul li {
+  width: 130px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+  padding: 2px 0;
+  margin: 2px 5px;
+}
+
+nav a:hover .sub-menu-1 ul li:hover { 
+  background-color: #085ca0;
+}
+
+.sub-menu-2{
+  display: none;
+}
+
+.hover-sub:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  background-color: #0e314f;
+  margin-top: -35px;
+  margin-left: 95%;
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 800px) {
+  
   header .nav-btn {
     display: block;
   }
@@ -50,13 +132,14 @@ header .nav-btn {
     font-size: 20px;
     transform: translateY(-100vh);
     
-    background-image: url('../public/images/bg-mobile/bg-m3.jpg');
+    background-image: url('../public/images/bg-mobile/bg-m5.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
   }
 
   header .responsiveNav {
+    z-index: 1;
     transform: none;
   }
 
@@ -65,13 +148,56 @@ header .nav-btn {
     top: 2rem;
     right: 2rem;
   }
+
+  nav a:hover .sub-menu-1 ul li {
+    display: none;
+  }
+
+  span .application {
+    
+  }
   
 }
 
-/* Main */
-main {
-  text-align: center;
+/* Section */
+section {
+  background: url(../public/images/bg-desktop/bg-d3-1.jpg) no-repeat top center/cover;
 }
+
+section .container {
+  width: auto;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding: 1.5rem;
+}
+
+section .container h1, p {
+  max-width: 1000px;
+  margin: auto;
+}
+
+section .container .flags img {
+  display: inline-block;
+  width: 50px;
+  margin: 0 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  section .container .flags img {
+    animation: flag-spin infinite 20s linear;
+  }
+}
+
+@keyframes flag-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 /* Footer */
 footer {
