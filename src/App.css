@@ -36,7 +36,7 @@ header .nav-btn {
 }
 
 span {
-  width: fit-content;
+  /* width: fit-content; */
   opacity: 0.7;
 }
 
@@ -45,10 +45,8 @@ span:hover {
 }
 
 .application {
-  width: 180px;
-  display: inline-block;
   background-color: #085ca07e;
-  padding: 4px 5px;
+  padding: .4rem;
   border-radius: 10px;
   opacity: 1;
 }
@@ -68,13 +66,12 @@ nav a:hover .sub-menu-1 {
   background-color: #0e314f;
   padding-top: 1.5rem;
   border-radius: 10px;
+  opacity: 0;
+  animation: appear 1s forwards;
 }
 
 nav a:hover .sub-menu-1 ul li {
   display: block;
-}
-
-nav a:hover .sub-menu-1 ul li {
   width: 130px;
   text-align: center;
   border-radius: 10px;
@@ -99,6 +96,19 @@ nav a:hover .sub-menu-1 ul li:hover {
   margin-top: -35px;
   margin-left: 95%;
   border-radius: 10px;
+  opacity: 0;
+  animation: appear 1s forwards;
+}
+
+/* Sub-menu Animation */
+@keyframes appear {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -139,18 +149,22 @@ nav a:hover .sub-menu-1 ul li:hover {
     right: 2rem;
   }
 
-  nav a:hover .sub-menu-1 ul li {
+  nav a:hover .sub-menu-1, .sub-menu-2 {
     display: none;
   }
 
-  span {
+  /* nav .sub-menu-1, .sub-menu-2 {
     display: block;
-    text-align: center;
-    margin: auto;
+    background-color: #085ca0c6;
+    border-radius: 10px;
+  } */
+
+  .navbar a {
+    width: 170px;
   }
 
-  span .application {
-    width: 0px;
+  span {
+    opacity: 1;
   }
   
 }
@@ -186,6 +200,7 @@ section .container .flags img {
   }
 }
 
+/* Flag Animation */
 @keyframes flag-spin {
   from {
     transform: rotate(0deg);
