@@ -1,4 +1,4 @@
-import { FaInstagram, FaFacebook } from "react-icons/fa"
+import { FaInstagram, FaMailBulk, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,13 +10,27 @@ const Footer = () => {
         <a>
           <FaFacebook />
         </a>
+        <a>
+          <FaMailBulk />
+        </a>
+        <a>
+          <FaWhatsapp />
+        </a>
       </div>
 
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blogs</a></li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About Us</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Blogs</a>
+        </li>
       </ul>
 
       <p>KKER @2023</p>

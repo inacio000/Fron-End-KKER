@@ -121,6 +121,10 @@ section .container h1, p {
   margin: auto;
 }
 
+section .container .flags {
+  margin-top: .8em;
+}
+
 section .container .flags img {
   display: inline-block;
   width: 50px;
@@ -130,7 +134,7 @@ section .container .flags img {
 /* Main */
 main {
   width: 100%;
-  background-color: #0e314f;
+  background-color: #0e314fac;
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -144,7 +148,7 @@ main .container {
   justify-content: center;
   padding: 1.5rem;
   margin: 0 auto;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 main .container h1 {
@@ -155,6 +159,15 @@ main .container h1 {
   /* text-transform: uppercase; */
   font-weight: 600;
   line-height: 40px;
+  margin-bottom: 5px;
+}
+
+main .main2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 main .container img {
@@ -164,23 +177,38 @@ main .container img {
   max-width: 100%;
 }
 
+/* Social Media Style */
+.social-component {
+  /* position: fixed; */
+  display: flex;
+  /* opacity: 0; */
+  gap: 1em;
+  /* color: black; */
+  font-size: 150%;
+  /* top: 80%; */
+  /* right: 1em; */
+  /* z-index: 2; */
+}
+
 /* Footer */
 footer {
   background-color: #0e314f;
-  padding: 40px;
+  padding: 20px;
 
 }
 
-footer a {
+footer a, .social-component a {
   opacity: 0.7;
+  cursor: pointer;
 }
 
-footer a:hover {
+footer a:hover, .social-component a:hover {
   opacity: 1;
 }
 
 footer .social-medias {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
   cursor: pointer;
@@ -195,7 +223,7 @@ footer .social-medias a {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  margin: 0 8px;
+  margin: 8px;
 }
 
 footer ul {
@@ -204,7 +232,7 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 footer p {

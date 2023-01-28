@@ -45,7 +45,7 @@
   body {
     min-height: 100vh;
     height: 100%;
-    backdrop-filter: blur(7px);
+    /* backdrop-filter: blur(7px); */
   }
   /*
     Typographic tweaks!
