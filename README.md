@@ -7,6 +7,7 @@
 - css
 - js
 - ReactIcons
+- react-slideshow
 
 ## Instalation
 

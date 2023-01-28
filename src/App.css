@@ -100,87 +100,20 @@ nav a:hover .sub-menu-1 ul li:hover {
   animation: appear 1s forwards;
 }
 
-/* Sub-menu Animation */
-@keyframes appear {
-  0% {
-    transform: scale(1);
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  
-  header .nav-btn {
-    display: block;
-  }
-
-  header nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-    transition: 0s;
-    font-size: 20px;
-    transform: translateY(-100vh);
-    
-    background-image: url('../public/images/bg-mobile/bg-m5.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-  }
-
-  header .responsiveNav {
-    z-index: 1;
-    transform: none;
-  }
-
-  nav .nav-close-btn {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-  }
-
-  nav a:hover .sub-menu-1, .sub-menu-2 {
-    display: none;
-  }
-
-  /* nav .sub-menu-1, .sub-menu-2 {
-    display: block;
-    background-color: #085ca0c6;
-    border-radius: 10px;
-  } */
-
-  .navbar a {
-    width: 170px;
-  }
-
-  span {
-    opacity: 1;
-  }
-  
-}
-
-
 /* Section */
 section {
-  background: url(../public/images/bg-desktop/bg-d3-1.jpg) no-repeat top center/cover;
+  /* background: url(../public/images/bg-desktop/bg-d3-1.jpg) no-repeat top center/cover; */
+
 }
 
 section .container {
   width: auto;
+  max-width: 1000px;
   backdrop-filter: blur(5px);
   text-align: center;
   letter-spacing: 1.5px;
   padding: 1.5rem;
+  margin: auto;
 }
 
 section .container h1, p {
@@ -194,26 +127,48 @@ section .container .flags img {
   margin: 0 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  section .container .flags img {
-    animation: flag-spin infinite 20s linear;
-  }
+/* Main */
+main {
+  width: 100%;
+  background-color: #0e314f;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Flag Animation */
-@keyframes flag-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  margin: 0 auto;
+  gap: 2rem;
 }
 
+main .container h1 {
+  max-width: 500px;
+  display: inline;
+  text-align: center;
+  font-size: 32px;
+  /* text-transform: uppercase; */
+  font-weight: 600;
+  line-height: 40px;
+}
+
+main .container img {
+  display: inline;
+  height: auto;
+  width: 450px;
+  max-width: 100%;
+}
 
 /* Footer */
 footer {
+  background-color: #0e314f;
   padding: 40px;
+
 }
 
 footer a {
@@ -257,4 +212,89 @@ footer p {
   text-align: center;
   font-size: 13px;
   color: rgb(197, 197, 197);
+}
+
+/* Animation */
+
+/* Sub-menu Animation */
+@keyframes appear {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Flag Animation */
+@media (prefers-reduced-motion: no-preference) {
+  section .container .flags img {
+    animation: flag-spin infinite 20s linear;
+  }
+}
+
+@keyframes flag-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media Queries */
+@media only screen and (max-width: 800px) {
+  
+  header .nav-btn {
+    display: block;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    transition: 0s;
+    font-size: 20px;
+    transform: translateY(-100vh);
+    
+    background-image: url('../public/images/bg-mobile/bg-m5.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  header .responsiveNav {
+    z-index: 1;
+    transform: none;
+    height: 100%;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a:hover .sub-menu-1, .sub-menu-2 {
+    display: none;
+  }
+
+  /* nav .sub-menu-1, .sub-menu-2 {
+    display: block;
+    background-color: #085ca0c6;
+    border-radius: 10px;
+  } */
+
+  .navbar a {
+    width: 170px;
+  }
+  
 }
