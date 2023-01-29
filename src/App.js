@@ -1,6 +1,5 @@
 import './App.css';
 import Footer from './components/Footer/Footer';
-import KkerSocialMedias from './components/KkerSocialMedias/KkerSocialMedias';
 import Main from './components/Main/Main';
 import NavBar from './components/NavBar/NavBar';
 import Section from './components/Section/Section';
