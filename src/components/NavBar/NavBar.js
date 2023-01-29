@@ -17,7 +17,7 @@ function NavBar() {
       <nav ref={navRef} className="navbar" id="navbar">
         <a href="#" className="navlink"><span>HOME</span></a>
 
-        <a href="#" className="navlink"><span className="no-hover">COUNTRIES</span>
+        <a href="#" className="navlink"><span className="no-hover">PAÍSES</span>
           <div className="sub-menu-1 sub1">
             <ul>
               <li className="hover-sub">
@@ -43,12 +43,12 @@ function NavBar() {
           </div>
         </a>
 
-        <a href="#" className="navlink"><span className="no-hover">ABOUT US</span>
+        <a href="#" className="navlink"><span className="no-hover">SOBRE</span>
           <div className="sub-menu-1 sub2">
             <ul>
-              <li><a href="">Services</a></li>
+              <li><a href="">Serviços</a></li>
               <li><a href="">KKER</a></li>
-              <li><a href="">About Us</a></li>
+              <li><a href="">Sobre Nós</a></li>
             </ul>
           </div>
         </a>
