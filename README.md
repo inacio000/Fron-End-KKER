@@ -12,4 +12,8 @@
 ## Instalation
 
     npm install
+
+## Run Project
+> requisite: `Node JS installed`
+
     npm start
