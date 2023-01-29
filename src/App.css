@@ -274,7 +274,7 @@ footer p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     transition: 0s;
     font-size: 20px;
     transform: translateY(-100vh);
@@ -290,6 +290,10 @@ footer p {
     transform: none;
     height: 100%;
   }
+  
+  header .responsiveNav a {
+    /* pointer-events: none; */
+  }
 
   nav .nav-close-btn {
     position: absolute;
@@ -301,14 +305,18 @@ footer p {
     display: none;
   }
 
-  /* nav .sub-menu-1, .sub-menu-2 {
+  nav .sub-menu-1, .sub-menu-2 {
     display: block;
     background-color: #085ca0c6;
     border-radius: 10px;
-  } */
+  }
 
   .navbar a {
     width: 170px;
+  }
+  
+  span {
+    opacity: 1;
   }
   
 }

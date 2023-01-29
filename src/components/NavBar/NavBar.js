@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Home from "../../Pages/Home";
 
 function NavBar() {
   const navRef = useRef();
@@ -8,14 +9,18 @@ function NavBar() {
     navRef.current.classList.toggle("responsiveNav");
   }
 
+  const right = () => {
+    console.log("Working...")
+  }
+
   return (
     <header>
-      <a href="index.html" className="logo">
+      <a href={Home} className="logo">
         <img src="../images/logotipe.png" alt="Logo image" />
       </a>
 
       <nav ref={navRef} className="navbar" id="navbar">
-        <a href="#" className="navlink"><span>HOME</span></a>
+        <a href={Home} className="navlink" onClick={right}><span>HOME</span></a>
 
         <a href="#" className="navlink"><span className="no-hover">PAÍSES</span>
           <div className="sub-menu-1 sub1">

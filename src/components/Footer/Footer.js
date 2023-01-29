@@ -23,17 +23,18 @@ const Footer = () => {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">About Us</a>
+          <a href="#">Países</a>
         </li>
         <li>
-          <a href="#">Services</a>
+          <a href="#">Sobre</a>
         </li>
         <li>
-          <a href="#">Blogs</a>
+          <a href="#">Candidaturas</a>
         </li>
       </ul>
 
       <p>KKER @2023</p>
+      
     </footer>
   )
 }
