@@ -1,82 +1,98 @@
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import Home from "../../Pages/Home";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
-  const navRef = useRef();
-
-  const showNavBar = () => {
-    navRef.current.classList.toggle("responsiveNav");
-  }
-
-  const right = () => {
-    console.log("Working...")
-  }
 
   return (
     <header>
-      <a href={Home} className="logo">
-        <img src="../images/logotipe.png" alt="Logo image" />
-      </a>
 
-      <nav ref={navRef} className="navbar" id="navbar">
-        <a href={Home} className="navlink" onClick={right}><span>HOME</span></a>
+      <NavLink to={`/home`} className="logo" >
+        <img src="../images/logotipe.png" />
+      </NavLink>
 
-        <a href="#" className="navlink"><span className="no-hover">PAÍSES</span>
-          <div className="sub-menu-1 sub1">
+      <input type="checkbox" id="menu-bar" />
+      <label htmlFor="menu-bar">Menu</label>
+
+      <nav className="navbar">
+
+        <ul>
+          <li>
+            <NavLink to={`/home`}> Home </NavLink>
+          </li>
+
+          <li className="sub">
+            <NavLink to={`/home`}> Países + </NavLink>
+
+            {/* Sub-Menu */}
             <ul>
-              <li className="hover-sub">
-                <a href="">Rússia</a>
-                <div className="sub-menu-2">
-                  <ul>
-                    <li><a href="">Vida na Rússia</a></li>
-                    <li><a href="">Estudos na Rússia</a></li>
-                  </ul>
-                </div>
+              <li className="sub">
+                <NavLink to={`/home`}> Rússia + </NavLink>
+                <ul>
+                  <li>
+                    <NavLink to={`/home`}> Vida na Rússia </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to={`/home`}> Estudos na Rússia </NavLink>
+                  </li>
+                </ul>
               </li>
 
-              <li className="hover-sub">
-                <a href="">Polônia</a>
-                <div className="sub-menu-2">
-                  <ul>
-                    <li><a href="">Vida na Polônia</a></li>
-                    <li><a href="">Estudos na Polônia</a></li>
-                  </ul>
-                </div>
+              <li className="sub">
+                <NavLink to={`/home`}> Polônia + </NavLink>
+
+                {/* Sub-Menu 2 */}
+                <ul>
+                  <li>
+                    <NavLink to={`/home`}> Vida na Polônia </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to={`/home`}>Estudos na Polônia</NavLink>
+                  </li>
+                </ul>
+
               </li>
             </ul>
-          </div>
-        </a>
 
-        <a href="#" className="navlink"><span className="no-hover">SOBRE</span>
-          <div className="sub-menu-1 sub2">
+          </li>
+
+          <li>
+            <NavLink to={`/About`}> Sobre + </NavLink>
             <ul>
-              <li><a href="">Serviços</a></li>
-              <li><a href="">KKER</a></li>
-              <li><a href="">Sobre Nós</a></li>
+              <li>
+                <NavLink to={`/home`}> Serviços </NavLink>
+              </li>
+              <li>
+                <NavLink to={`/home`}>KKER</NavLink>
+              </li>
+              <li>
+                <NavLink to={`/home`}>Sobre Nós</NavLink>
+              </li>
             </ul>
-          </div>
-        </a>
+          </li>
 
-        <a href="#" className="navlink"><span className="application no-hover
-no-hover">CANDIDATURAS</span>
-          <div className="sub-menu-1 sub3">
+          <li>
+            <NavLink className="special" to={`/home`}> Candidaturas + </NavLink>
+
+            {/* Sub-Menu */}
             <ul>
-              <li><a href="">Requisitos</a></li>
-              <li><a href="">Universidade</a></li>
-              <li><a href="">Especialidades</a></li>
-              <li><a href="">Aplicar</a></li>
+              <li>
+                <NavLink to={`/req`}> Requisitos </NavLink>
+              </li>
+              <li>
+                <NavLink to={`/universidades`}> Universidades </NavLink>
+              </li>
+              <li>
+                <NavLink to={`/espcialidades`}> Especialidades </NavLink>
+              </li>
+              <li>
+                <NavLink to={`/apply`}> Aplicar </NavLink>
+              </li>
             </ul>
-          </div>
-        </a>
+          </li>
 
-        <button className="nav-btn nav-close-btn" onClick={showNavBar}>
-          <FaTimes />
-        </button>
+        </ul>
+
       </nav>
-      <button className="nav-btn nav-close-btn faTime" onClick={showNavBar}>
-        <FaBars />
-      </button>
+
     </header>
   )
 }

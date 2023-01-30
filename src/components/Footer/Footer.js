@@ -1,39 +1,40 @@
 import { FaInstagram, FaMailBulk, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
       <div className="social-medias">
-        <a>
+        <NavLink to={`/`}>
           <FaInstagram />
-        </a>
-        <a>
+        </NavLink>
+        <NavLink to={`/`}>
           <FaFacebook />
-        </a>
-        <a>
+        </NavLink>
+        <NavLink to={`/`}>
           <FaMailBulk />
-        </a>
-        <a>
+        </NavLink>
+        <NavLink to={`/`}>
           <FaWhatsapp />
-        </a>
+        </NavLink>
       </div>
 
       <ul>
         <li>
-          <a href="#">Home</a>
+          <NavLink to={`/`}>Home</NavLink>
         </li>
         <li>
-          <a href="#">Países</a>
+          <NavLink to={`/`}>Países</NavLink>
         </li>
         <li>
-          <a href="#">Sobre</a>
+          <NavLink to={`/`}>Sobre</NavLink>
         </li>
         <li>
-          <a href="#">Candidaturas</a>
+          <NavLink to={`/`}>Candidaturas</NavLink>
         </li>
       </ul>
 
-      <p>KKER @2023</p>
+      <p>&copy; KKER 2023</p>
       
     </footer>
   )
