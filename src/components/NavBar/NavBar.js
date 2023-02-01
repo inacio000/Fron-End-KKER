@@ -28,10 +28,10 @@ function NavBar() {
                 <NavLink to={`/home`}> Rússia + </NavLink>
                 <ul>
                   <li>
-                    <NavLink to={`/home`}> Vida na Rússia </NavLink>
+                    <NavLink to={`/russia_life`}> Vida na Rússia </NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/home`}> Estudos na Rússia </NavLink>
+                    <NavLink to={`/russia_study`}> Estudos na Rússia </NavLink>
                   </li>
                 </ul>
               </li>
@@ -42,10 +42,10 @@ function NavBar() {
                 {/* Sub-Menu 2 */}
                 <ul>
                   <li>
-                    <NavLink to={`/home`}> Vida na Polônia </NavLink>
+                    <NavLink to={`/poland_life`}> Vida na Polônia </NavLink>
                   </li>
                   <li>
-                    <NavLink to={`/home`}>Estudos na Polônia</NavLink>
+                    <NavLink to={`/poland_study`}>Estudos na Polônia</NavLink>
                   </li>
                 </ul>
 
@@ -55,22 +55,22 @@ function NavBar() {
           </li>
 
           <li>
-            <NavLink to={`/About`}> Sobre + </NavLink>
+            <NavLink to={`/home`}> Sobre + </NavLink>
             <ul>
               <li>
-                <NavLink to={`/home`}> Serviços </NavLink>
+                <NavLink to={`/service`}> Serviços </NavLink>
               </li>
               <li>
-                <NavLink to={`/home`}>KKER</NavLink>
+                <NavLink to={`/kker`}>KKER</NavLink>
               </li>
               <li>
-                <NavLink to={`/home`}>Sobre Nós</NavLink>
+                <NavLink to={`/about`}>Sobre Nós</NavLink>
               </li>
             </ul>
           </li>
 
           <li>
-            <NavLink className="special" to={`/home`}> Candidaturas + </NavLink>
+            <NavLink className="special" to={`/home`}> Inscrição + </NavLink>
 
             {/* Sub-Menu */}
             <ul>
@@ -78,10 +78,10 @@ function NavBar() {
                 <NavLink to={`/req`}> Requisitos </NavLink>
               </li>
               <li>
-                <NavLink to={`/universidades`}> Universidades </NavLink>
+                <NavLink to={`/universities`}> Universidades </NavLink>
               </li>
               <li>
-                <NavLink to={`/espcialidades`}> Especialidades </NavLink>
+                <NavLink to={`/specialties`}> Especialidades </NavLink>
               </li>
               <li>
                 <NavLink to={`/apply`}> Aplicar </NavLink>

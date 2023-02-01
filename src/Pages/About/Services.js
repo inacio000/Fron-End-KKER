@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import Footer from "../components/Footer/Footer";
-import NavBar from "../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
+import NavBar from "../../components/NavBar/NavBar";
 
 
-function About() {
+function Services() {
     return (
         <div>
             <NavBar/>
@@ -18,4 +18,4 @@ function About() {
     )
 }
 
-export default About;
+export default Services;
