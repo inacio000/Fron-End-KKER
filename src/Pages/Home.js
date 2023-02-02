@@ -9,7 +9,11 @@ function Home() {
   return (
     <div className="App">
       <NavBar />
-      <Section />
+      <Section 
+        title="Sonha em estudar no exterior?"
+        ftext="A oportunidade sonhada chegou em Angola"
+        stext="Graças as parcerias que temos com as universidades na Polônia e na Rússia, a estreita colaboração com a embaixada da Polônia e da Rússia em Angola, agora para os angolanos tornou-se mais fácil estudar nestes formidáveis países."
+      />
       <SlideShow />
       <Main 
         title= "Temos as melhores universidades na Rússia e na Polônia"
