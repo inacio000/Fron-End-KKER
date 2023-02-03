@@ -34,7 +34,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <p>&copy;2023 KKER</p>
+      <p>&copy;2018-2023 KKER</p>
       
     </footer>
   )
