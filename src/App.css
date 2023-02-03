@@ -80,7 +80,6 @@ header label {
 
 /* Section */
 section {
-  border: 1px solid #fff;
   background-color: #0e314fac;
 }
 
@@ -119,7 +118,6 @@ section .container .flags img {
 
 /* Main */
 main {
-  border: 1px solid #fff;
   width: 100%;
   background-color: #0e314fac;
   backdrop-filter: blur(5px);
