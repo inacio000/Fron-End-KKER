@@ -33,6 +33,9 @@ function NavBar() {
                   <li>
                     <NavLink to={`/russia_study`}> Estudos na Rússia </NavLink>
                   </li>
+                  <li>
+                    <NavLink to={`/russian-gallery`}> Galeria </NavLink>
+                  </li>
                 </ul>
               </li>
 
@@ -46,6 +49,9 @@ function NavBar() {
                   </li>
                   <li>
                     <NavLink to={`/poland_study`}>Estudos na Polônia</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to={`/poland-gallery`}> Galeria </NavLink>
                   </li>
                 </ul>
 

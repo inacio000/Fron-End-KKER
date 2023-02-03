@@ -11,6 +11,11 @@ import AboutUs from "../Pages/About/AbouUs";
 import Requirements from "../Pages/Inscription/Requirements";
 import Universities from "../Pages/Inscription/Universities";
 import Specialties from "../Pages/Inscription/Specialties";
+import RussianGallery from "../Pages/Countries/Russia/RussianGallery";
+import PolandGallery from "../Pages/Countries/Poland/PolandGallery";
+import NizhnyGallery from "../Pages/Gallery/NizhnyGallery/NizhnyGallery";
+import CalugaGallery from "../Pages/Gallery/CalugaGallery/CalugaGallery";
+import KirovGallery from "../Pages/Gallery/KirovGallery/KirovGallery";
 
 function Routers() {
     return (
@@ -28,6 +33,11 @@ function Routers() {
                 <Route path="/req" element={<Requirements /> } />                
                 <Route path="/universities" element={<Universities /> } />
                 <Route path="/specialties" element={<Specialties /> } />
+                <Route path="/russian-gallery" element={<RussianGallery /> } />
+                <Route path="/poland-gallery" element={<PolandGallery /> } />
+                <Route path="/nizhny-gallery" element={<NizhnyGallery /> } />
+                <Route path="/caluga-gallery" element={<CalugaGallery /> } />
+                <Route path="/kirov-gallery" element={<KirovGallery /> } />
                 
                 <Route path="*" element={<Navigate to="/home" />} />
 
