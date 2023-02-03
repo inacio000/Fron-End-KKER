@@ -50,6 +50,7 @@ header .navbar ul li ul li {
   width: 100%;
   font-size: 16px;
   border-radius: 0px;
+  border-radius: 10px;
 }
 
 header .navbar ul li ul li:hover {
@@ -79,6 +80,7 @@ header label {
 
 /* Section */
 section {
+  border: 1px solid #fff;
   background-color: #0e314fac;
 }
 
@@ -97,6 +99,14 @@ section .container h1, p {
   margin: auto;
 }
 
+section .container h1 {
+  margin-bottom: .3rem;
+}
+
+section .container p {
+  font-size: 15px;
+}
+
 section .container .flags {
   margin-top: .8em;
 }
@@ -109,6 +119,7 @@ section .container .flags img {
 
 /* Main */
 main {
+  border: 1px solid #fff;
   width: 100%;
   background-color: #0e314fac;
   backdrop-filter: blur(5px);
@@ -132,10 +143,10 @@ main .container h1 {
   max-width: 500px;
   display: inline;
   text-align: center;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
 }
 
 main .main2 {
@@ -234,11 +245,11 @@ footer p {
 }
 
 /* Flag Animation */
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   section .container .flags img {
-    /* animation: flag-spin infinite 20s linear; */
+    animation: flag-spin infinite 20s linear;
   }
-}
+} */
 
 @keyframes flag-spin {
   from {
@@ -283,6 +294,8 @@ footer p {
 
   header .navbar ul li ul li {
     background: #1b599065;
+    border-radius: 0px;
+    border: 0.1px solid rgba(204, 204, 204, 0.137);
   }
 
   header .navbar ul li ul li:hover {
