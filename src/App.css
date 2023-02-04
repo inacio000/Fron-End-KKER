@@ -222,8 +222,8 @@ footer p {
 /* Gallery Style */
 .wrapper {
   max-width: 1350px;
-  padding: 0px 60px;
-  margin: 8rem auto 2rem auto;
+  padding: 8rem 60px 3rem;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: 200px;
@@ -237,7 +237,7 @@ footer p {
   height: 100%;
   object-fit: cover;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .wrapper .wrapper-images img:hover {
@@ -317,16 +317,15 @@ footer p {
 /* Russian Gallery */
 .col {
   width: fit-content;
-  /* max-width: 800px; */
   min-height: auto;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 8rem auto 2rem auto;
+  margin: 0 auto;
+  padding: 8rem 0 3rem 0;
   gap: 5em;
-  border: 1px solid #fff;
 }
 
 .col p {

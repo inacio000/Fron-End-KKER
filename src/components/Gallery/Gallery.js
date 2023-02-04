@@ -47,25 +47,27 @@ function Gallery(props) {
     }
 
     return (
-        <div className='wrapper'>
-            {props.data.data.map((item, index) => (
-                <div key={index} className="wrapper-images">
-                    {/* <p>{item.id}</p> */}
-                    <img
-                        src={item.url}
-                        alt=""
-                        onClick={() => handelClick(item, index)}
+        <div style={{width: '100%', background: 'rgba(0,0,0,0.7)'}}>
+            <div className='wrapper'>
+                {props.data.data.map((item, index) => (
+                    <div key={index} className="wrapper-images">
+                        {/* <p>{item.id}</p> */}
+                        <img
+                            src={item.url}
+                            alt=""
+                            onClick={() => handelClick(item, index)}
+                        />
+                    </div>
+                ))}
+                {clickedImg && (
+                    <Modal
+                        clickedImg={clickedImg}
+                        handelRotationRight={handelRotationRight}
+                        setClickedImg={setClickedImg}
+                        handelRotationLeft={handelRotationLeft}
                     />
-                </div>
-            ))}
-            {clickedImg && (
-                <Modal
-                    clickedImg={clickedImg}
-                    handelRotationRight={handelRotationRight}
-                    setClickedImg={setClickedImg}
-                    handelRotationLeft={handelRotationLeft}
-                />
-            )}
+                )}
+            </div>
         </div>
     );
 }
