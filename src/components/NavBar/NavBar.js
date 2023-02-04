@@ -20,12 +20,12 @@ function NavBar() {
           </li>
 
           <li className="sub">
-            <NavLink to={`/home`}> Países + </NavLink>
+            <NavLink to={``}> Países + </NavLink>
 
             {/* Sub-Menu */}
             <ul>
               <li className="sub">
-                <NavLink to={`/home`}> Rússia + </NavLink>
+                <NavLink to={``}> Rússia + </NavLink>
                 <ul>
                   <li>
                     <NavLink to={`/russia_life`}> Vida na Rússia </NavLink>
@@ -61,7 +61,7 @@ function NavBar() {
           </li>
 
           <li>
-            <NavLink to={`/home`}> Sobre + </NavLink>
+            <NavLink to={``}> Sobre + </NavLink>
             <ul>
               <li>
                 <NavLink to={`/service`}> Serviços </NavLink>
@@ -76,7 +76,7 @@ function NavBar() {
           </li>
 
           <li>
-            <NavLink className="special" to={`/home`}> Inscrição + </NavLink>
+            <NavLink className="special" to={``}> Inscrição + </NavLink>
 
             {/* Sub-Menu */}
             <ul>
