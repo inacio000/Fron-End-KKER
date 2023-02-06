@@ -1,0 +1,49 @@
+{
+    "dataCard": [
+        {
+            "city": "2019-2020-2021",
+            "link": "",
+            "bgImage": "../images/content-images/activities/nizhny/19-20-21/first-activity35.jpg"
+        },
+        {
+            "city": "Entrega de Certificados",
+            "link": "",
+            "bgImage": "../images/content-images/activities/nizhny/certificate/certificate18.jpg"
+        },
+        {
+            "city": "Centro Comerciais",
+            "link": "",
+            "bgImage": "../images/content-images/activities/nizhny/comercial-center/сс8.jpg"
+        },
+        {
+            "city": "Excursão",
+            "link": "",
+            "bgImage": "../images/content-images/activities/nizhny/excursion/excursion20.png"
+        },
+        {
+            "city": "Festival de Pesca",
+            "link": "",
+            "bgImage": "../images/content-images/activities/nizhny/fix-festival/fix-festival33.jpg"
+        },
+        {
+            "city": "Loba",
+            "link": "",
+            "bgImage": "../images/content-images/activities/nizhny/loba/loba7.jpg"
+        },
+        {
+            "city": "Natal",
+            "link": "",
+            "bgImage": "../images/content-images/christmas/christmas7.jpg"
+        },
+        {
+            "city": "Desporto",
+            "link": "",
+            "bgImage": "../images/content-images/football/sport11.jpg"
+        },
+        {
+            "city": "Paisagens",
+            "link": "",
+            "bgImage": "../images/content-images/landscapes/land5.jpg"
+        }
+    ]
+}

@@ -20,6 +20,10 @@ function Home() {
         title= "Temos as melhores universidades na Rússia e na Polônia"
         src="../images/content-images/uni.jpg"
       />
+      <Main 
+        title= "Com ensino de qualidade e preços acessíveis"
+        src="../images/content-images/uni/uni14.2.jpg"
+      />
       <Footer />
     </div>
   );

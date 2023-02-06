@@ -36,8 +36,29 @@
             "divStyle": "row-reverse"
         },
         {
-            "text": "Entrada Clubes, os preços são a partir de 5$, dependendo do local, dia .",
-            "src": "../images/content-images/cinema/museu.jpg",
+            "text": "Entrada em Clubes, os preços são a partir de 5$, dependendo do local, dia ou o regime do bar (aberto/fechado).",
+            "src": "../images/content-images/cinema/club.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "Transporte público: metrô custa a partir de 24 a 36$ por mês.",
+            "src": "../images/content-images/metro.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        },
+        {
+            "text": "Os ônibus, bondes e troleiros custam entre US $ 0,5 a 0,9 por viagem ou ainda pagar um cartão e assinar um plano mensal a partir de de 6$.",
+            "src": "../images/content-images/bus.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "Vestuário: vale a pena comprar roupas de inverno (chapéu, cachecol, casaco, sapatos) na Rússia. É mais barato do que no Ocidente, e é mais adequado para o clima russo.",
+            "src": "../images/content-images/winter-drip.jpg",
             "animation1": "fade-up",
             "animation2": "fade-up",
             "divStyle": "row-reverse"

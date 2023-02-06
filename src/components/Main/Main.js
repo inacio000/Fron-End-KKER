@@ -13,12 +13,12 @@ function Main(props) {
         <main>
             <div className="container">
                 <div className="main2">
-                    <h1 data-aos="fade-left">
+                    <h1 data-aos="fade-right">
                         {props.title}
                     </h1>
                     <KkerSocialMedias data-aos="zoom-in"/>
                 </div>
-                <img src={props.src} alt="Students image" data-aos="fade-right"/>
+                <img src={props.src} alt="Students image" data-aos="fade-left"/>
             </div>
         </main>
     )

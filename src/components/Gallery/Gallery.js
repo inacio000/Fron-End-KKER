@@ -63,7 +63,8 @@ function Gallery(props) {
                             src={item.url}
                             alt=""
                             onClick={() => handelClick(item, index)}
-                            data-aos="zoom-in"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="center-bottom"
                         />
                     </div>
                 ))}
