@@ -1,9 +1,16 @@
 import { useState } from 'react';
 import Modal from '../Modal/Modal';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 function Gallery(props) {
     const [clickedImg, setClickedImg] = useState(null);
     const [currentIndex, setCurrentIndex] = useState(null);
+
+    useEffect(() => {
+        AOS.init({duration: 3000});
+    }, [])
 
     const handelClick = (item, index) => {
         setCurrentIndex(index);
@@ -56,6 +63,7 @@ function Gallery(props) {
                             src={item.url}
                             alt=""
                             onClick={() => handelClick(item, index)}
+                            data-aos="zoom-in"
                         />
                     </div>
                 ))}

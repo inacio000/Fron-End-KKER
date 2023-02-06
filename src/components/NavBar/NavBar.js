@@ -1,9 +1,16 @@
 import { NavLink } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 function NavBar() {
 
+  useEffect(() => {
+    AOS.init({duration: 3000});
+  }, [])
+
   return (
-    <header>
+    <header data-aos="fade-down">
 
       <NavLink to={`/home`} className="logo" >
         <img src="../images/logotipe.png" />

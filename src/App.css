@@ -159,6 +159,7 @@ main .container img {
   height: auto;
   width: 450px;
   max-width: 100%;
+  border-radius: 10px;
 }
 
 /* Social Media Style */
@@ -167,6 +168,54 @@ main .container img {
   gap: 1em;
   font-size: 150%;
 }
+
+/* Container Style */
+.container-main {
+  background-color: #0e314fac;
+  backdrop-filter: blur(5px);
+  padding: 7rem 0 3rem 0; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-main h1{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 1.5rem;
+  margin: 0 auto;
+  gap: 1rem;
+  border-top: .5px solid #cccccc1b;
+}
+
+.container-child {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-child p {
+  display: inline;
+  /* margin: 0; */
+  padding: .8rem;
+}
+
+.container-wrapper img {
+  display: inline;
+  height: auto;
+  width: 400px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 
 /* Footer Style */
 footer {
