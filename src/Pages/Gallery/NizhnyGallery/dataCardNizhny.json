@@ -44,6 +44,11 @@
             "city": "Paisagens",
             "link": "/lands-caps",
             "bgImage": "../images/content-images/landscapes/land5.jpg"
+        },
+        {
+            "city": "Ano Novo",
+            "link": "/new-year",
+            "bgImage": "../images/content-images/new-year/new-year0.jpg"
         }
     ]
 }

@@ -25,6 +25,7 @@ import Loba from "../Pages/Gallery/NizhnyGallery/Loba/Loba";
 import Christmas from "../Pages/Gallery/NizhnyGallery/Christmas/Christmas";
 import Sports from "../Pages/Gallery/NizhnyGallery/Sports/Sports";
 import LandsCapes from "../Pages/Gallery/NizhnyGallery/LandsCapes/LandsCapes";
+import NewYear from "../Pages/Gallery/NizhnyGallery/NewYear/NewYear";
 
 function Routers() {
     return (
@@ -54,6 +55,7 @@ function Routers() {
                 <Route path="/christmas" element={<Christmas /> } />
                 <Route path="/sports" element={<Sports /> } />
                 <Route path="/lands-caps" element={<LandsCapes /> } />
+                <Route path="/new-year" element={<NewYear /> } />
                 
                 <Route path="/caluga-gallery" element={<CalugaGallery /> } />
                 <Route path="/kirov-gallery" element={<KirovGallery /> } />
