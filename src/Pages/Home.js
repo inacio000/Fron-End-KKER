@@ -17,12 +17,12 @@ function Home() {
       />
       <SlideShow />
       <Main 
-        title= "Temos as melhores universidades na Rússia e na Polônia"
-        src="../images/content-images/uni.jpg"
+        title= "Temos excelentes universidades na Rússia e na Polônia"
+        src="../images/content-images/uni/uni14.2.jpg"
       />
       <Main 
         title= "Com ensino de qualidade e preços acessíveis"
-        src="../images/content-images/uni/uni14.2.jpg"
+        src="../images/content-images/uni.jpg"
       />
       <Footer />
     </div>

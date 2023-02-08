@@ -16,6 +16,15 @@ import PolandGallery from "../Pages/Countries/Poland/PolandGallery";
 import NizhnyGallery from "../Pages/Gallery/NizhnyGallery/NizhnyGallery";
 import CalugaGallery from "../Pages/Gallery/CalugaGallery/CalugaGallery";
 import KirovGallery from "../Pages/Gallery/KirovGallery/KirovGallery";
+import FirstYears from "../Pages/Gallery/NizhnyGallery/FirstYears/FirstYears";
+import Certificate from "../Pages/Gallery/NizhnyGallery/Certificate/Certificate";
+import ComercialCenter from "../Pages/Gallery/NizhnyGallery/ComerciarCenter/ComercialCenter";
+import Excursion from "../Pages/Gallery/NizhnyGallery/Excursion/Excursion";
+import FixFestival from "../Pages/Gallery/NizhnyGallery/FixFestival/FixFestival";
+import Loba from "../Pages/Gallery/NizhnyGallery/Loba/Loba";
+import Christmas from "../Pages/Gallery/NizhnyGallery/Christmas/Christmas";
+import Sports from "../Pages/Gallery/NizhnyGallery/Sports/Sports";
+import LandsCapes from "../Pages/Gallery/NizhnyGallery/LandsCapes/LandsCapes";
 
 function Routers() {
     return (
@@ -36,6 +45,16 @@ function Routers() {
                 <Route path="/russian-gallery" element={<RussianGallery /> } />
                 <Route path="/poland-gallery" element={<PolandGallery /> } />
                 <Route path="/nizhny-gallery" element={<NizhnyGallery /> } />
+                <Route path="/first-years" element={<FirstYears /> } />
+                <Route path="/certificate" element={<Certificate /> } />
+                <Route path="/comercial-center" element={<ComercialCenter /> } />
+                <Route path="/excursion" element={<Excursion /> } />
+                <Route path="/fix-festival" element={<FixFestival /> } />
+                <Route path="/loba" element={<Loba /> } />
+                <Route path="/christmas" element={<Christmas /> } />
+                <Route path="/sports" element={<Sports /> } />
+                <Route path="/lands-caps" element={<LandsCapes /> } />
+                
                 <Route path="/caluga-gallery" element={<CalugaGallery /> } />
                 <Route path="/kirov-gallery" element={<KirovGallery /> } />
                 

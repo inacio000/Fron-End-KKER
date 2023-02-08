@@ -1,9 +1,13 @@
-function RussiaStydy() {
+import Container from "../../../components/Container/Container";
+import dataRussiaStudy from "./dataRussiaStudy.json"
+
+function RussiaStudy() {
     return (
-        <div style={{ height: '100vh', padding: '10rem', margin: 'auto', textAlign: 'center'}}>
-            <h1>Russia Study</h1>
-        </div>
+        <Container 
+            title="Estudos na Rússia"
+            data={dataRussiaStudy}
+        />
     )
 }
 
-export default RussiaStydy;
+export default RussiaStudy;

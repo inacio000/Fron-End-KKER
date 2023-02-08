@@ -1,0 +1,36 @@
+{
+    "data":[
+        {
+            "id":"1",
+            "url":"../images/content-images/christmas/christmas1.jpg"
+        },
+        {
+            "id":"2",
+            "url":"../images/content-images/christmas/christmas2.jpg"
+        },
+        {
+            "id":"3",
+            "url":"../images/content-images/christmas/christmas3.jpg"
+        },
+        {
+            "id":"4",
+            "url":"../images/content-images/christmas/christmas4.jpg"
+        },
+        {
+            "id":"5.0",
+            "url":"../images/content-images/christmas/christmas5.jpg"
+        },
+        {
+            "id":"5",
+            "url":"../images/content-images/christmas/christmas6.jpg"
+        },
+        {
+            "id":"6",
+            "url":"../images/content-images/christmas/christmas7.jpg"
+        },
+        {
+            "id":"7",
+            "url":"../images/content-images/christmas/christmas8.jpg"
+        }
+    ]
+}

@@ -9,7 +9,7 @@ function Gallery(props) {
     const [currentIndex, setCurrentIndex] = useState(null);
 
     useEffect(() => {
-        AOS.init({duration: 3000});
+        AOS.init({duration: 2000});
     }, [])
 
     const handelClick = (item, index) => {

@@ -9,7 +9,7 @@ import NavBar from '../NavBar/NavBar';
 const Container = (props) => {
 
     useEffect(() => {
-        AOS.init({duration: 3000});
+        AOS.init({duration: 2000});
     }, [])
 
     return (
@@ -20,7 +20,7 @@ const Container = (props) => {
                     <h1>{props.title}</h1>
                 </div>
                 {
-                    props.data.dataRussiaLife.map((item, index) => (
+                    props.data.dataRussia.map((item, index) => (
 
                         <div key={index} className="container-wrapper" style={{flexDirection: `${item.divStyle}`}}>
                             <div className="container-child" data-aos={item.animation1}>

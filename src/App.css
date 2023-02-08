@@ -271,6 +271,7 @@ footer p {
 /* Gallery Style */
 .wrapper {
   max-width: 1350px;
+  min-height: 80vh;
   padding: 8rem 60px 3rem;
   margin: 0 auto;
   display: grid;

@@ -1,0 +1,124 @@
+{
+    "dataRussia": [
+        {
+            "text": "A Rússia abrange as planícies orientais da Europa para os orientais da Ásia.",
+            "src": "../images/content-images/euro-asia.jpg",
+            "animation1": "fade-right",
+            "animation2": "fade-left",
+            "divStyle": "row-reverse"
+        },
+        {
+            "text": "O país cobre 17.075.400 quilômetros quadrados, tornando-se o maior país do mundo.",
+            "src": "../images/content-images/russia-map.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "A língua oficial é russa, embora existam cerca de 100 línguas faladas entre os 160 grupos étnicos registrados para viver nas fronteiras russas.",
+            "src": "../images/content-images/uni/uni3.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        },
+        {
+            "text": "Isso torna a Rússia um país incrivelmente diversificado, sem cultura para orientar suas expectativas.",
+            "src": "../images/content-images/moscow.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "A educação superior russa é mais famosa pela sua superioridade nas áreas de ciência e pesquisa.",
+            "src": "../images/content-images/uni/uni1.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        },
+        {
+            "text": "Diz-se que mais de um quarto da literatura científica mundial é publicada em russo - uma linguagem surpreendentemente uniforme, apesar da sua enorme disseminação entre países e povos.",
+            "src": "../images/content-images/literatura.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "É também uma das seis línguas oficiais das Nações Unidas.",
+            "src": "../images/content-images/nacoes-unidas.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        },
+        {
+            "text": "O sistema educacional russo baseia-se em grande parte no sistema central europeu e bastante similar em sua estrutura.",
+            "src": "../images/content-images/ue.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "O sistema é dividido em quatro grandes partes: educação primária, secundária, superior e pós-graduação. Embora os nomes correspondam amplamente aos mesmos tipos de educação que em outros lugares, existem algumas diferenças.. completado em 11 anos em vez de 12 como em muitos outros países. Os anos de um a nove são obrigatórios. Depois disso, cada aluno pode escolher uma das várias maneiras de avançar.",
+            "src": "../images/content-images/study.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        },
+        {
+            "text": "O certificado de Educação Geral Básica é recebido após o nono ano.",
+            "src": "../images/content-images/students.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "Existem três tipos básicos de instituições de ensino superior na Rússia. Estas são universidades, academias e institutos.",
+            "src": "../images/content-images/uni/uni14.2.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        }
+
+
+
+
+
+
+
+        ,
+        {
+            "text": "É também uma das seis línguas oficiais das Nações Unidas.",
+            "src": "../images/content-images/nacoes-unidas.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        },
+        {
+            "text": "O sistema educacional russo baseia-se em grande parte no sistema central europeu e bastante similar em sua estrutura.",
+            "src": "../images/content-images/ue.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "O sistema é dividido em quatro grandes partes: educação primária, secundária, superior e pós-graduação. Embora os nomes correspondam amplamente aos mesmos tipos de educação que em outros lugares, existem algumas diferenças.. completado em 11 anos em vez de 12 como em muitos outros países. Os anos de um a nove são obrigatórios. Depois disso, cada aluno pode escolher uma das várias maneiras de avançar.",
+            "src": "../images/content-images/study.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        },
+        {
+            "text": "O certificado de Educação Geral Básica é recebido após o nono ano.",
+            "src": "../images/content-images/students.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row"
+        },
+        {
+            "text": "Existem três tipos básicos de instituições de ensino superior na Rússia. Estas são universidades, academias e institutos.",
+            "src": "../images/content-images/uni/uni14.2.jpg",
+            "animation1": "fade-up",
+            "animation2": "fade-up",
+            "divStyle": "row-reverse"
+        }
+    ]
+}

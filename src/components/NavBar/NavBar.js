@@ -6,22 +6,22 @@ import { useEffect } from 'react';
 function NavBar() {
 
   useEffect(() => {
-    AOS.init({duration: 3000});
+    AOS.init({duration: 2000});
   }, [])
 
   return (
-    <header data-aos="fade-down">
+    <header>
 
-      <NavLink to={`/home`} className="logo" >
+      <NavLink to={`/home`} className="logo" data-aos="fade-down">
         <img src="../images/logotipe.png" />
       </NavLink>
 
       <input type="checkbox" id="menu-bar" />
-      <label htmlFor="menu-bar">Menu</label>
+      <label htmlFor="menu-bar" data-aos="fade-down">Menu</label>
 
       <nav className="navbar">
 
-        <ul>
+        <ul data-aos="fade-down">
           <li>
             <NavLink to={`/home`}> Home </NavLink>
           </li>
