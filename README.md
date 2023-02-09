@@ -3,11 +3,17 @@
 <img src="readme.png"></img>
 
 ## Techs
-- jsx
+- html
 - css
+- js
 - ReactIcons
+- react-slideshow
 
 ## Instalation
 
     npm install
-    npm run dev
+
+## Run Project
+> requisite: `Node JS installed`
+
+    npm start
